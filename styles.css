@@ -1,0 +1,100 @@
+/* @media (min-width: 720px) and (max-width: 1000px) {} */
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
+#main-doc header {
+    text-align: left;
+    margin: 0px;
+}
+
+.titulo {
+    left: 0;
+    font-size: 30px;
+    font-weight: thin;
+}
+
+header article p,
+li {
+    left: 0;
+    font-size: 15px;
+    color: #4d4e53;
+}
+
+header article code {
+    font-size: 12px;
+    font-family: monospace;
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* navbar */
+#navbar {
+    display: inline-block;
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+
+.titulo_nav {
+    padding-top: 15px;
+    padding-left: 115px;
+    color: black;
+    font-size: 30px;
+}
+
+#navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    list-style-type: disc;
+
+}
+
+#navbar li {
+    text-decoration: none;
+    color: #4d4e53;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+
+#navbar a:hover {
+    color: white;
+    background: rgba(0, 22, 22, 0.4);
+    font-weight: 600;
+    transition: ease-in-out 100ms;
+}
+
+#navbar .nav-link {
+    display: block;
+    padding: 10px 30px;
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+}
